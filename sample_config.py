@@ -2,8 +2,6 @@ import os
 
 class Config(object):
 
-    BANNED_USERS = int(os.environ.get("BANNED&USERS"))
-
 
     # get a token from @BotFather
     TG_BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
